@@ -11,3 +11,8 @@ TODO:
 1.  Modularize the code to make function calls as much of the code can be reduced significantly.
 
 2.  Make the appearance pretty at all.
+
+3. Create a Homepage (Landing Page) 
+
+4. Create a Login so those who are authorized can update or insert data into database. 
+
