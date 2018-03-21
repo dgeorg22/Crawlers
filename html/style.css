@@ -1,0 +1,138 @@
+h1{
+    font-family: "Times New Roman", serif;
+    color: black;
+    text-align: center;
+    font-size: 32px;
+}
+h2{
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+}
+tr{
+    text-align:center;
+    font-size: 15px;
+}
+table.insert_table tr{
+    text-align: left;
+}
+/*Navigation*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333638;
+    border-top: 0.3em solid black;
+}
+li {
+    float:left;
+    font-family: "Times New Roman", "serif";
+}
+
+li a{
+    display: block;
+    padding: 8px;
+    background-color: #333638;
+    color: white;
+}
+li a:hover {
+    background-color: #111;
+}
+/*Header*/
+header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: "Times New Roman", "serif";
+  
+}
+/*Dropdown Options*/
+#state{
+    height:30px;
+    font: "Times New Roman", "serif";
+}
+#oldState{
+    height:30px;
+    font: "Times New Roman", "serif";
+}
+#newState{
+    height:30px;
+    font: "Times New Roman", "serif";
+}
+/* Banner */
+#banner {
+    padding: 12em 0 10em 0;
+        /* Image taken from free repository from wikipedia from the following link: https://commons.wikimedia.org/wiki/File%3AVerschneite_Landschaft.jpg*/
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/41/Verschneite_Landschaft.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-top: 0.3em solid black;
+}
+.insert_header{
+    font-family: "Times New Roman", "serif";
+    font-size: 18px;
+}
+/*Input for the Information*/
+input[type=text], select {
+    width: 30%;
+    padding: 6px 6px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+/*Button Details*/
+input[type=submit] {
+    width: 8%;
+    background-color: #3399ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+input[type=submit]:hover {
+    background-color: #0059b3;
+}
+
+div {
+    border-radius: 0px;
+    background-color: #f2f2f2;
+    padding: 0px;
+}
+#banner h1 {
+    font-size: 3.5em;
+    font-weight: 100;
+    color: white;
+    line-height: 0.5em;
+    margin: 0 0 0.1em 0;
+    padding: 0;
+}
+#banner p {
+    font-size: 1.4em;
+    color: white;
+    margin-bottom: 2.95em;
+}
+/*Add a scollbar*/
+body {
+    -ms-overflow-style: scrollbar;
+}
+
+@media screen and (max-width: 480px) {
+    html, body {
+        min-width: 320px;
+    }
+}
+body {
+    background: #fff;
+}
+		
